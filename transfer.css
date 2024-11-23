@@ -1,0 +1,42 @@
+
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 6rem;
+    border: 2px solid gray;  
+    padding: 0 2rem; 
+}
+
+.listbox {
+    width: 42%;
+}
+
+input {
+    margin: 0.7rem 0;
+    font-weight: 200%;
+}
+
+.buttons {
+    display: flex;
+    height: fit-content;
+    /* position:fixed; */
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+    padding: 0 5%;
+    border: 2px solid gray;
+}
+
+.buttons button {
+    margin: 3px 0;
+    padding: 5px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
