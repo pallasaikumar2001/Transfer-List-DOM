@@ -2,14 +2,17 @@
 
 .container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin: 6rem;
-    border: 2px solid gray;  
+    border: 2px solid lightgray;  
     padding: 0 2rem; 
 }
 
 .listbox {
     width: 42%;
+
+    /* border: 2px solid gray; */
+    
 }
 
 input {
@@ -19,13 +22,13 @@ input {
 
 .buttons {
     display: flex;
-    height: fit-content;
+    /* height: 1; */
     /* position:fixed; */
     flex-direction: column;
-    justify-content: center;
-    margin: 0 10px;
-    padding: 0 5%;
-    border: 2px solid gray;
+    padding: 0 20px;
+
+    border: 2px solid lightgray;
+    padding-bottom: 100;
 }
 
 .buttons button {
@@ -33,6 +36,11 @@ input {
     padding: 5px;
     width: 40px;
     cursor: pointer;
+    /* margin: 0px 0px; */
+
+}
+.two{
+    padding-left: 1.5rem;
 }
 
 .active {
